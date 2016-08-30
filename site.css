@@ -1,0 +1,66 @@
+body {
+margin: 0px 0px 0px 0px;
+padding: 0px;
+font-family: Verdana,Helvetica,Arial,sans-serif;
+background-color: white;
+}
+ul.navbar {
+list-style-type: none;
+margin: 0px;
+padding: 6px 0px 6px 0px;
+}
+ul.navbar li {
+display: inline;
+}
+ul.navbar li a {
+font-weight: bold;
+color: white;
+background-color: gray;
+text-align: center;
+padding: 6px;
+margin: 6px;
+text-decoration: none;
+border-style: solid;
+border-width: 3px;
+border-color: black;
+outline-style: solid;
+outline-width: 5px;
+outline-color: black;
+}
+ul.navbar li a:hover,ul.navbar li a:active {
+background-color: green;
+}
+ul.navbar li a.shown {
+border-color: red;
+}
+div.main {
+float: left;
+max-width: 320px;
+padding: 0px 40px 0px 20px;
+}
+div.books,div.softwares {
+float: left;
+margin: 100px 6px 0px 6px;
+padding: 0px 6px;
+border-style: solid;
+border-color: black;
+border-width: 2px;
+background-color: gray;
+color: white;
+}
+div.books {
+clear: right;
+}
+div.books a,div.softwares a {
+color: white;
+}
+div.books a:visited,div.softwares a:visited {
+text-decoration: none;
+}
+div.books a:hover,div.softwares a:hover {
+text-decoration: underline;
+}
+div.valid {
+float: left;
+}
+
